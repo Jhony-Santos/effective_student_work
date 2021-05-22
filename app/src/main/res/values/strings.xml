@@ -1,21 +1,4 @@
 <resources>
-    <string name="app_name">newsPaper</string>
-    <string name="movie_name">Movie Name</string>
-    <string name="movie_date">Movie Date</string>
-    <string name="todo">TODO</string>
-    <string name="movie">movie</string>
-    <string name="update">update</string>
-    <string name="atualizar">Atualizar</string>
-    <string name="delete">delete</string>
-    <string name="deletar">Deletar</string>
-    <string name="t_tulo">Título:</string>
-    <string name="ano_de_lan_amento">Ano de lançamento:</string>
-    <string name="title">title</string>
-    <string name="inp_title">Título</string>
-    <string name="inp_date">date</string>
-    <string name="lancamento">Lançamento</string>
+    <string name="app_name">tde</string>
     <string name="btn_camera">camera</string>
-    <string name="titulo">titulo</string>
-
 </resources>
-

@@ -1,4 +1,4 @@
-package com.example.newspaper;
+package com.example.tde;
 
 import org.junit.Test;
 
