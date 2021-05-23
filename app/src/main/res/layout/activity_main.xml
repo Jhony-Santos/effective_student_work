@@ -6,35 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-
-        android:id="@+id/recyclerView"
-        android:layout_width="353dp"
-        android:layout_height="678dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51" />
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/main_btn_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="124dp"
         android:clickable="true"
         android:contentDescription="@string/btn_camera"
         android:focusable="true"
-        android:onClick="takePictureClicked"
+        android:onClick="tirarFoto"
+        app:backgroundTint="#8BC34A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="299dp"
+        app:srcCompat="@drawable/perfil"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="27dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
