@@ -10,8 +10,8 @@
         android:id="@+id/main_btn_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="56dp"
         android:clickable="true"
         android:contentDescription="@string/btn_camera"
         android:focusable="true"
@@ -28,6 +28,27 @@
         app:srcCompat="@drawable/perfil"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="27dp" />
+
+    <Button
+        android:id="@+id/id_converter"
+        android:layout_width="162dp"
+        android:layout_height="49dp"
+        android:onClick="converter"
+        android:text="converter"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:onClick="galeria"
+        android:text="galeria"
+        app:layout_constraintEnd_toEndOf="@+id/id_converter"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/id_converter"
+        tools:layout_editor_absoluteY="486dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
