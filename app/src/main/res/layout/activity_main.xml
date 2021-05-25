@@ -25,30 +25,43 @@
         android:id="@+id/imageView"
         android:layout_width="277dp"
         android:layout_height="299dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/id_converter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/perfil"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="27dp" />
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/id_converter"
         android:layout_width="162dp"
         android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="8dp"
         android:onClick="converter"
-        android:text="converter"
+        android:text="@string/converter"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        tools:layout_editor_absoluteY="404dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="158dp"
         android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="224dp"
         android:onClick="galeria"
-        android:text="galeria"
+        android:text="@string/galeria"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/id_converter"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="@+id/id_converter"
-        tools:layout_editor_absoluteY="486dp" />
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/id_converter" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

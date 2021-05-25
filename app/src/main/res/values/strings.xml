@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">tde</string>
     <string name="btn_camera">camera</string>
+    <string name="converter">converter</string>
+    <string name="galeria">galeria</string>
+    <string name="todo">TODO</string>
 </resources>
